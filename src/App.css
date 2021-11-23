@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 15vmin;
+  pointer-events: none;
+}
+
+.App-descripcion {
+  height: 5vmin;
+  pointer-events: none;
+}
+
+
+.App-header {
+  background-color: #01010;
+  min-height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Form {
+  width:30%;
+  margin-top: 50px;
+}
+.List {
+
+  margin-top: 50px;
+}
+.Products {
+
+  margin-top: 50px;
+}
+
+.Containers{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-size: calc(1px + 2vmin);
+}
+
+.Containers2{
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: calc(5px + 2vmin);
+  align-items: flex-start;
+}
+
+.App-bote {
+  height: 5vmin;
+  pointer-events: none;
+}
